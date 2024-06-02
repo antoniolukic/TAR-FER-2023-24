@@ -1,0 +1,796 @@
+
+======== Epoch 1 / 2 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.114520072937012.
+  Batch    10  of     41.    Elapsed: 5.873526096343994.
+  Batch    15  of     41.    Elapsed: 7.632091045379639.
+  Batch    20  of     41.    Elapsed: 9.39037299156189.
+  Batch    25  of     41.    Elapsed: 11.148883581161499.
+  Batch    30  of     41.    Elapsed: 12.907388687133789.
+  Batch    35  of     41.    Elapsed: 14.665878534317017.
+  Batch    40  of     41.    Elapsed: 16.42436933517456.
+
+  Average training loss: 0.52
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 2 ========
+Training...
+  Batch     5  of     41.    Elapsed: 5.120062589645386.
+  Batch    10  of     41.    Elapsed: 6.877739191055298.
+  Batch    15  of     41.    Elapsed: 8.635521173477173.
+  Batch    20  of     41.    Elapsed: 10.392958164215088.
+  Batch    25  of     41.    Elapsed: 12.150459051132202.
+  Batch    30  of     41.    Elapsed: 13.908138275146484.
+  Batch    35  of     41.    Elapsed: 15.665803670883179.
+  Batch    40  of     41.    Elapsed: 17.423900604248047.
+
+  Average training loss: 0.37
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 3 ========
+Training...
+  Batch     5  of     41.    Elapsed: 1.80330491065979.
+  Batch    10  of     41.    Elapsed: 3.56162428855896.
+  Batch    15  of     41.    Elapsed: 5.3200318813323975.
+  Batch    20  of     41.    Elapsed: 7.078598976135254.
+  Batch    25  of     41.    Elapsed: 8.836904525756836.
+  Batch    30  of     41.    Elapsed: 10.595430612564087.
+  Batch    35  of     41.    Elapsed: 12.35386323928833.
+  Batch    40  of     41.    Elapsed: 14.11242389678955.
+
+  Average training loss: 0.65
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 3 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.693850755691528.
+  Batch    10  of     41.    Elapsed: 6.452186584472656.
+  Batch    15  of     41.    Elapsed: 8.210726261138916.
+  Batch    20  of     41.    Elapsed: 9.969104766845703.
+  Batch    25  of     41.    Elapsed: 11.727460622787476.
+  Batch    30  of     41.    Elapsed: 13.485992193222046.
+  Batch    35  of     41.    Elapsed: 15.2442307472229.
+  Batch    40  of     41.    Elapsed: 17.00272798538208.
+
+  Average training loss: 0.36
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 3 / 3 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.694197416305542.
+  Batch    10  of     41.    Elapsed: 6.452580213546753.
+  Batch    15  of     41.    Elapsed: 8.210851669311523.
+  Batch    20  of     41.    Elapsed: 9.969354152679443.
+  Batch    25  of     41.    Elapsed: 11.727796077728271.
+  Batch    30  of     41.    Elapsed: 13.485997200012207.
+  Batch    35  of     41.    Elapsed: 15.244637966156006.
+  Batch    40  of     41.    Elapsed: 17.00300908088684.
+
+  Average training loss: 0.32
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 4 ========
+Training...
+  Batch     5  of     41.    Elapsed: 1.7993621826171875.
+  Batch    10  of     41.    Elapsed: 3.5570526123046875.
+  Batch    15  of     41.    Elapsed: 5.315114736557007.
+  Batch    20  of     41.    Elapsed: 7.072588205337524.
+  Batch    25  of     41.    Elapsed: 8.830270767211914.
+  Batch    30  of     41.    Elapsed: 10.588024616241455.
+  Batch    35  of     41.    Elapsed: 12.345913171768188.
+  Batch    40  of     41.    Elapsed: 14.103569984436035.
+
+  Average training loss: 0.52
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 4 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.694202899932861.
+  Batch    10  of     41.    Elapsed: 6.452748775482178.
+  Batch    15  of     41.    Elapsed: 8.211296319961548.
+  Batch    20  of     41.    Elapsed: 9.969919919967651.
+  Batch    25  of     41.    Elapsed: 11.72814154624939.
+  Batch    30  of     41.    Elapsed: 13.486642360687256.
+  Batch    35  of     41.    Elapsed: 15.24502944946289.
+  Batch    40  of     41.    Elapsed: 17.003417491912842.
+
+  Average training loss: 0.36
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 3 / 4 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.693872451782227.
+  Batch    10  of     41.    Elapsed: 6.452195405960083.
+  Batch    15  of     41.    Elapsed: 8.21070909500122.
+  Batch    20  of     41.    Elapsed: 9.969151973724365.
+  Batch    25  of     41.    Elapsed: 11.72815227508545.
+  Batch    30  of     41.    Elapsed: 13.486691951751709.
+  Batch    35  of     41.    Elapsed: 15.245258331298828.
+  Batch    40  of     41.    Elapsed: 17.003863096237183.
+
+  Average training loss: 0.32
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 4 / 4 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.694116592407227.
+  Batch    10  of     41.    Elapsed: 6.452455282211304.
+  Batch    15  of     41.    Elapsed: 8.21091341972351.
+  Batch    20  of     41.    Elapsed: 9.96941328048706.
+  Batch    25  of     41.    Elapsed: 11.72762131690979.
+  Batch    30  of     41.    Elapsed: 13.48612904548645.
+  Batch    35  of     41.    Elapsed: 15.24462080001831.
+  Batch    40  of     41.    Elapsed: 17.002981662750244.
+
+  Average training loss: 0.29
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 2 ========
+Training...
+  Batch     5  of     41.    Elapsed: 1.78775954246521.
+  Batch    10  of     41.    Elapsed: 3.5453715324401855.
+  Batch    15  of     41.    Elapsed: 5.3028411865234375.
+  Batch    20  of     41.    Elapsed: 7.060182094573975.
+  Batch    25  of     41.    Elapsed: 8.817740201950073.
+  Batch    30  of     41.    Elapsed: 10.575283527374268.
+  Batch    35  of     41.    Elapsed: 12.333289623260498.
+  Batch    40  of     41.    Elapsed: 14.09172010421753.
+
+  Average training loss: 0.44
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 2 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.692836761474609.
+  Batch    10  of     41.    Elapsed: 6.451312065124512.
+  Batch    15  of     41.    Elapsed: 8.209764242172241.
+  Batch    20  of     41.    Elapsed: 9.96815299987793.
+  Batch    25  of     41.    Elapsed: 11.72677731513977.
+  Batch    30  of     41.    Elapsed: 13.485159158706665.
+  Batch    35  of     41.    Elapsed: 15.243712663650513.
+  Batch    40  of     41.    Elapsed: 17.001944303512573.
+
+  Average training loss: 0.36
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 3 ========
+Training...
+  Batch     5  of     41.    Elapsed: 1.8071177005767822.
+  Batch    10  of     41.    Elapsed: 3.565136194229126.
+  Batch    15  of     41.    Elapsed: 5.322946548461914.
+  Batch    20  of     41.    Elapsed: 7.08064341545105.
+  Batch    25  of     41.    Elapsed: 8.838459968566895.
+  Batch    30  of     41.    Elapsed: 10.596131563186646.
+  Batch    35  of     41.    Elapsed: 12.354268550872803.
+  Batch    40  of     41.    Elapsed: 14.112802505493164.
+
+  Average training loss: 0.46
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 3 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.692397356033325.
+  Batch    10  of     41.    Elapsed: 6.450864791870117.
+  Batch    15  of     41.    Elapsed: 8.209173440933228.
+  Batch    20  of     41.    Elapsed: 9.967352867126465.
+  Batch    25  of     41.    Elapsed: 11.725736141204834.
+  Batch    30  of     41.    Elapsed: 13.484111070632935.
+  Batch    35  of     41.    Elapsed: 15.242679834365845.
+  Batch    40  of     41.    Elapsed: 17.001179695129395.
+
+  Average training loss: 0.38
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 3 / 3 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.692383050918579.
+  Batch    10  of     41.    Elapsed: 6.450766563415527.
+  Batch    15  of     41.    Elapsed: 8.20914602279663.
+  Batch    20  of     41.    Elapsed: 9.967469692230225.
+  Batch    25  of     41.    Elapsed: 11.726054430007935.
+  Batch    30  of     41.    Elapsed: 13.484460830688477.
+  Batch    35  of     41.    Elapsed: 15.242743253707886.
+  Batch    40  of     41.    Elapsed: 17.00124979019165.
+
+  Average training loss: 0.37
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 4 ========
+Training...
+  Batch     5  of     41.    Elapsed: 1.8035500049591064.
+  Batch    10  of     41.    Elapsed: 3.5610883235931396.
+  Batch    15  of     41.    Elapsed: 5.3193745613098145.
+  Batch    20  of     41.    Elapsed: 7.077956438064575.
+  Batch    25  of     41.    Elapsed: 8.836498498916626.
+  Batch    30  of     41.    Elapsed: 10.594909429550171.
+  Batch    35  of     41.    Elapsed: 12.353339910507202.
+  Batch    40  of     41.    Elapsed: 14.111769914627075.
+
+  Average training loss: 0.44
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 4 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.692933082580566.
+  Batch    10  of     41.    Elapsed: 6.4515540599823.
+  Batch    15  of     41.    Elapsed: 8.210036993026733.
+  Batch    20  of     41.    Elapsed: 9.968457460403442.
+  Batch    25  of     41.    Elapsed: 11.72688889503479.
+  Batch    30  of     41.    Elapsed: 13.485275983810425.
+  Batch    35  of     41.    Elapsed: 15.243743181228638.
+  Batch    40  of     41.    Elapsed: 17.002091646194458.
+
+  Average training loss: 0.40
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 3 / 4 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.693093299865723.
+  Batch    10  of     41.    Elapsed: 6.451578855514526.
+  Batch    15  of     41.    Elapsed: 8.210030317306519.
+  Batch    20  of     41.    Elapsed: 9.968487739562988.
+  Batch    25  of     41.    Elapsed: 11.726816177368164.
+  Batch    30  of     41.    Elapsed: 13.485229015350342.
+  Batch    35  of     41.    Elapsed: 15.24369215965271.
+  Batch    40  of     41.    Elapsed: 17.00213098526001.
+
+  Average training loss: 0.39
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 4 / 4 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.693122863769531.
+  Batch    10  of     41.    Elapsed: 6.451446771621704.
+  Batch    15  of     41.    Elapsed: 8.209825277328491.
+  Batch    20  of     41.    Elapsed: 9.968297243118286.
+  Batch    25  of     41.    Elapsed: 11.726915836334229.
+  Batch    30  of     41.    Elapsed: 13.485365629196167.
+  Batch    35  of     41.    Elapsed: 15.243563652038574.
+  Batch    40  of     41.    Elapsed: 17.002084732055664.
+
+  Average training loss: 0.38
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 2 ========
+Training...
+  Batch     5  of     41.    Elapsed: 1.7968275547027588.
+  Batch    10  of     41.    Elapsed: 3.5551791191101074.
+  Batch    15  of     41.    Elapsed: 5.313605070114136.
+  Batch    20  of     41.    Elapsed: 7.072088241577148.
+  Batch    25  of     41.    Elapsed: 8.830599546432495.
+  Batch    30  of     41.    Elapsed: 10.589033126831055.
+  Batch    35  of     41.    Elapsed: 12.34733271598816.
+  Batch    40  of     41.    Elapsed: 14.10576581954956.
+
+  Average training loss: 0.65
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 2 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.693112850189209.
+  Batch    10  of     41.    Elapsed: 6.451509952545166.
+  Batch    15  of     41.    Elapsed: 8.210039615631104.
+  Batch    20  of     41.    Elapsed: 9.968501091003418.
+  Batch    25  of     41.    Elapsed: 11.726874351501465.
+  Batch    30  of     41.    Elapsed: 13.48519515991211.
+  Batch    35  of     41.    Elapsed: 15.243638753890991.
+  Batch    40  of     41.    Elapsed: 17.00197434425354.
+
+  Average training loss: 0.37
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 3 ========
+Training...
+  Batch     5  of     41.    Elapsed: 1.7758169174194336.
+  Batch    10  of     41.    Elapsed: 3.533301830291748.
+  Batch    15  of     41.    Elapsed: 5.291228771209717.
+  Batch    20  of     41.    Elapsed: 7.049208641052246.
+  Batch    25  of     41.    Elapsed: 8.807650566101074.
+  Batch    30  of     41.    Elapsed: 10.566082239151001.
+  Batch    35  of     41.    Elapsed: 12.324449062347412.
+  Batch    40  of     41.    Elapsed: 14.082904577255249.
+
+  Average training loss: 0.59
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 3 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.693746089935303.
+  Batch    10  of     41.    Elapsed: 6.452335357666016.
+  Batch    15  of     41.    Elapsed: 8.210824728012085.
+  Batch    20  of     41.    Elapsed: 9.969299554824829.
+  Batch    25  of     41.    Elapsed: 11.727705240249634.
+  Batch    30  of     41.    Elapsed: 13.486186265945435.
+  Batch    35  of     41.    Elapsed: 15.244654178619385.
+  Batch    40  of     41.    Elapsed: 17.00294280052185.
+
+  Average training loss: 0.36
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 3 / 3 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.693176507949829.
+  Batch    10  of     41.    Elapsed: 6.451601982116699.
+  Batch    15  of     41.    Elapsed: 8.20993423461914.
+  Batch    20  of     41.    Elapsed: 9.968424558639526.
+  Batch    25  of     41.    Elapsed: 11.727043390274048.
+  Batch    30  of     41.    Elapsed: 13.485369205474854.
+  Batch    35  of     41.    Elapsed: 15.243728160858154.
+  Batch    40  of     41.    Elapsed: 17.00217032432556.
+
+  Average training loss: 0.32
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 4 ========
+Training...
+  Batch     5  of     41.    Elapsed: 1.8440155982971191.
+  Batch    10  of     41.    Elapsed: 3.6008780002593994.
+  Batch    15  of     41.    Elapsed: 5.357908487319946.
+  Batch    20  of     41.    Elapsed: 7.115715503692627.
+  Batch    25  of     41.    Elapsed: 8.873936891555786.
+  Batch    30  of     41.    Elapsed: 10.6323721408844.
+  Batch    35  of     41.    Elapsed: 12.390856742858887.
+  Batch    40  of     41.    Elapsed: 14.149235963821411.
+
+  Average training loss: 0.56
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 4 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.6937572956085205.
+  Batch    10  of     41.    Elapsed: 6.452470541000366.
+  Batch    15  of     41.    Elapsed: 8.210958480834961.
+  Batch    20  of     41.    Elapsed: 9.969388246536255.
+  Batch    25  of     41.    Elapsed: 11.727803945541382.
+  Batch    30  of     41.    Elapsed: 13.486237287521362.
+  Batch    35  of     41.    Elapsed: 15.244627237319946.
+  Batch    40  of     41.    Elapsed: 17.003183126449585.
+
+  Average training loss: 0.37
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 3 / 4 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.693946599960327.
+  Batch    10  of     41.    Elapsed: 6.452334642410278.
+  Batch    15  of     41.    Elapsed: 8.21085238456726.
+  Batch    20  of     41.    Elapsed: 9.969208478927612.
+  Batch    25  of     41.    Elapsed: 11.727569818496704.
+  Batch    30  of     41.    Elapsed: 13.485994815826416.
+  Batch    35  of     41.    Elapsed: 15.244497299194336.
+  Batch    40  of     41.    Elapsed: 17.00288462638855.
+
+  Average training loss: 0.33
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 4 / 4 ========
+Training...
+  Batch     5  of     41.    Elapsed: 4.6932713985443115.
+  Batch    10  of     41.    Elapsed: 6.451632499694824.
+  Batch    15  of     41.    Elapsed: 8.209914684295654.
+  Batch    20  of     41.    Elapsed: 9.968413829803467.
+  Batch    25  of     41.    Elapsed: 11.726848602294922.
+  Batch    30  of     41.    Elapsed: 13.48518991470337.
+  Batch    35  of     41.    Elapsed: 15.243688583374023.
+  Batch    40  of     41.    Elapsed: 17.00215220451355.
+
+  Average training loss: 0.30
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 2 ========
+Training...
+  Batch     5  of     21.    Elapsed: 3.375882625579834.
+  Batch    10  of     21.    Elapsed: 6.7349770069122314.
+  Batch    15  of     21.    Elapsed: 10.0939781665802.
+  Batch    20  of     21.    Elapsed: 13.453073024749756.
+
+  Average training loss: 0.74
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 2 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.615622282028198.
+  Batch    10  of     21.    Elapsed: 9.9749436378479.
+  Batch    15  of     21.    Elapsed: 13.33432650566101.
+  Batch    20  of     21.    Elapsed: 16.693594932556152.
+
+  Average training loss: 0.40
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 3 ========
+Training...
+  Batch     5  of     21.    Elapsed: 3.403794288635254.
+  Batch    10  of     21.    Elapsed: 6.762749671936035.
+  Batch    15  of     21.    Elapsed: 10.122069358825684.
+  Batch    20  of     21.    Elapsed: 13.481627225875854.
+
+  Average training loss: 0.97
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 3 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.169960260391235.
+  Batch    10  of     21.    Elapsed: 9.530279636383057.
+  Batch    15  of     21.    Elapsed: 12.890493869781494.
+  Batch    20  of     21.    Elapsed: 16.251086473464966.
+
+  Average training loss: 0.43
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 3 / 3 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.169732332229614.
+  Batch    10  of     21.    Elapsed: 9.53008222579956.
+  Batch    15  of     21.    Elapsed: 12.890770196914673.
+  Batch    20  of     21.    Elapsed: 16.251103162765503.
+
+  Average training loss: 0.36
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 4 ========
+Training...
+  Batch     5  of     21.    Elapsed: 3.3936073780059814.
+  Batch    10  of     21.    Elapsed: 6.753035545349121.
+  Batch    15  of     21.    Elapsed: 10.113096475601196.
+  Batch    20  of     21.    Elapsed: 13.47242283821106.
+
+  Average training loss: 0.75
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 4 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.170223236083984.
+  Batch    10  of     21.    Elapsed: 9.530739068984985.
+  Batch    15  of     21.    Elapsed: 12.891272783279419.
+  Batch    20  of     21.    Elapsed: 16.25220561027527.
+
+  Average training loss: 0.39
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 3 / 4 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.170022249221802.
+  Batch    10  of     21.    Elapsed: 9.530293941497803.
+  Batch    15  of     21.    Elapsed: 12.891188144683838.
+  Batch    20  of     21.    Elapsed: 16.251773357391357.
+
+  Average training loss: 0.36
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 4 / 4 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.170087575912476.
+  Batch    10  of     21.    Elapsed: 9.530763864517212.
+  Batch    15  of     21.    Elapsed: 12.891457080841064.
+  Batch    20  of     21.    Elapsed: 16.251891613006592.
+
+  Average training loss: 0.33
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 2 ========
+Training...
+  Batch     5  of     21.    Elapsed: 3.408379554748535.
+  Batch    10  of     21.    Elapsed: 6.767689943313599.
+  Batch    15  of     21.    Elapsed: 10.127108812332153.
+  Batch    20  of     21.    Elapsed: 13.486074447631836.
+
+  Average training loss: 0.53
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 2 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.170807838439941.
+  Batch    10  of     21.    Elapsed: 9.53093957901001.
+  Batch    15  of     21.    Elapsed: 12.891254901885986.
+  Batch    20  of     21.    Elapsed: 16.251801013946533.
+
+  Average training loss: 0.40
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 3 ========
+Training...
+  Batch     5  of     21.    Elapsed: 3.409388780593872.
+  Batch    10  of     21.    Elapsed: 6.7685463428497314.
+  Batch    15  of     21.    Elapsed: 10.12779688835144.
+  Batch    20  of     21.    Elapsed: 13.486574649810791.
+
+  Average training loss: 0.50
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 3 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.169449806213379.
+  Batch    10  of     21.    Elapsed: 9.529719829559326.
+  Batch    15  of     21.    Elapsed: 12.890494108200073.
+  Batch    20  of     21.    Elapsed: 16.250847578048706.
+
+  Average training loss: 0.38
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 3 / 3 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.1699018478393555.
+  Batch    10  of     21.    Elapsed: 9.530408382415771.
+  Batch    15  of     21.    Elapsed: 12.890812635421753.
+  Batch    20  of     21.    Elapsed: 16.251261711120605.
+
+  Average training loss: 0.32
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 4 ========
+Training...
+  Batch     5  of     21.    Elapsed: 3.382746696472168.
+  Batch    10  of     21.    Elapsed: 6.741826057434082.
+  Batch    15  of     21.    Elapsed: 10.101211786270142.
+  Batch    20  of     21.    Elapsed: 13.461186170578003.
+
+  Average training loss: 0.49
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 4 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.169680833816528.
+  Batch    10  of     21.    Elapsed: 9.529887437820435.
+  Batch    15  of     21.    Elapsed: 12.889939546585083.
+  Batch    20  of     21.    Elapsed: 16.250314950942993.
+
+  Average training loss: 0.41
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 3 / 4 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.169775485992432.
+  Batch    10  of     21.    Elapsed: 9.530134677886963.
+  Batch    15  of     21.    Elapsed: 12.890217065811157.
+  Batch    20  of     21.    Elapsed: 16.250392198562622.
+
+  Average training loss: 0.37
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 4 / 4 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.16955828666687.
+  Batch    10  of     21.    Elapsed: 9.529658555984497.
+  Batch    15  of     21.    Elapsed: 12.889718294143677.
+  Batch    20  of     21.    Elapsed: 16.249807119369507.
+
+  Average training loss: 0.36
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 2 ========
+Training...
+  Batch     5  of     21.    Elapsed: 3.3825931549072266.
+  Batch    10  of     21.    Elapsed: 6.741513729095459.
+  Batch    15  of     21.    Elapsed: 10.100516557693481.
+  Batch    20  of     21.    Elapsed: 13.459737300872803.
+
+  Average training loss: 0.97
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 2 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.169873237609863.
+  Batch    10  of     21.    Elapsed: 9.530319213867188.
+  Batch    15  of     21.    Elapsed: 12.890389919281006.
+  Batch    20  of     21.    Elapsed: 16.250730991363525.
+
+  Average training loss: 0.48
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 3 ========
+Training...
+  Batch     5  of     21.    Elapsed: 3.3870139122009277.
+  Batch    10  of     21.    Elapsed: 6.746259927749634.
+  Batch    15  of     21.    Elapsed: 10.105732679367065.
+  Batch    20  of     21.    Elapsed: 13.464784383773804.
+
+  Average training loss: 0.82
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 3 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.1697678565979.
+  Batch    10  of     21.    Elapsed: 9.530116081237793.
+  Batch    15  of     21.    Elapsed: 12.890305042266846.
+  Batch    20  of     21.    Elapsed: 16.25068235397339.
+
+  Average training loss: 0.40
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 3 / 3 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.169412136077881.
+  Batch    10  of     21.    Elapsed: 9.529560804367065.
+  Batch    15  of     21.    Elapsed: 12.889647483825684.
+  Batch    20  of     21.    Elapsed: 16.25009775161743.
+
+  Average training loss: 0.35
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+
+======== Epoch 1 / 4 ========
+Training...
+  Batch     5  of     21.    Elapsed: 3.4010493755340576.
+  Batch    10  of     21.    Elapsed: 6.760651350021362.
+  Batch    15  of     21.    Elapsed: 10.12001085281372.
+  Batch    20  of     21.    Elapsed: 13.47953486442566.
+
+  Average training loss: 0.75
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 4 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.170112371444702.
+  Batch    10  of     21.    Elapsed: 9.530609130859375.
+  Batch    15  of     21.    Elapsed: 12.891269207000732.
+  Batch    20  of     21.    Elapsed: 16.25166893005371.
+
+  Average training loss: 0.37
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 3 / 4 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.17012882232666.
+  Batch    10  of     21.    Elapsed: 9.530559301376343.
+  Batch    15  of     21.    Elapsed: 12.891468286514282.
+  Batch    20  of     21.    Elapsed: 16.251845121383667.
+
+  Average training loss: 0.34
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 4 / 4 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.170057535171509.
+  Batch    10  of     21.    Elapsed: 9.530805349349976.
+  Batch    15  of     21.    Elapsed: 12.891124486923218.
+  Batch    20  of     21.    Elapsed: 16.251498460769653.
+
+  Average training loss: 0.31
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+{'batch_size': 32, 'learning_rate': 2e-05, 'num_epochs': 2}
+Train Accuracy:  0.9146341463414634
+Validation Accuracy:  0.9451073985680191
+Test Accuracy:  0.9533834586466166
