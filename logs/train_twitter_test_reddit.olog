@@ -1,0 +1,209 @@
+
+======== Epoch 1 / 5 ========
+Training...
+  Batch     5  of    132.    Elapsed: 5.930272579193115.
+  Batch    10  of    132.    Elapsed: 9.297098398208618.
+  Batch    15  of    132.    Elapsed: 12.664185523986816.
+  Batch    20  of    132.    Elapsed: 16.030997037887573.
+  Batch    25  of    132.    Elapsed: 19.397539138793945.
+  Batch    30  of    132.    Elapsed: 22.76413083076477.
+  Batch    35  of    132.    Elapsed: 26.1306574344635.
+  Batch    40  of    132.    Elapsed: 29.497862577438354.
+  Batch    45  of    132.    Elapsed: 32.86488437652588.
+  Batch    50  of    132.    Elapsed: 36.23191571235657.
+  Batch    55  of    132.    Elapsed: 39.59851789474487.
+  Batch    60  of    132.    Elapsed: 42.96490454673767.
+  Batch    65  of    132.    Elapsed: 46.331395626068115.
+  Batch    70  of    132.    Elapsed: 49.69757533073425.
+  Batch    75  of    132.    Elapsed: 53.06386852264404.
+  Batch    80  of    132.    Elapsed: 56.43041801452637.
+  Batch    85  of    132.    Elapsed: 59.79694628715515.
+  Batch    90  of    132.    Elapsed: 63.16321563720703.
+  Batch    95  of    132.    Elapsed: 66.52978754043579.
+  Batch   100  of    132.    Elapsed: 69.89646649360657.
+  Batch   105  of    132.    Elapsed: 73.26302242279053.
+  Batch   110  of    132.    Elapsed: 76.62945318222046.
+  Batch   115  of    132.    Elapsed: 79.99598097801208.
+  Batch   120  of    132.    Elapsed: 83.36268329620361.
+  Batch   125  of    132.    Elapsed: 86.72921943664551.
+  Batch   130  of    132.    Elapsed: 90.09534978866577.
+
+  Average training loss: 0.89
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 5 ========
+Training...
+  Batch     5  of    132.    Elapsed: 6.579224109649658.
+  Batch    10  of    132.    Elapsed: 9.942620754241943.
+  Batch    15  of    132.    Elapsed: 13.30579137802124.
+  Batch    20  of    132.    Elapsed: 16.668984413146973.
+  Batch    25  of    132.    Elapsed: 20.032395839691162.
+  Batch    30  of    132.    Elapsed: 23.39574432373047.
+  Batch    35  of    132.    Elapsed: 26.758919954299927.
+  Batch    40  of    132.    Elapsed: 30.12222695350647.
+  Batch    45  of    132.    Elapsed: 33.48538279533386.
+  Batch    50  of    132.    Elapsed: 36.84842491149902.
+  Batch    55  of    132.    Elapsed: 40.21140003204346.
+  Batch    60  of    132.    Elapsed: 43.57463836669922.
+  Batch    65  of    132.    Elapsed: 46.937880992889404.
+  Batch    70  of    132.    Elapsed: 50.30101537704468.
+  Batch    75  of    132.    Elapsed: 53.66412425041199.
+  Batch    80  of    132.    Elapsed: 57.027448892593384.
+  Batch    85  of    132.    Elapsed: 60.3909010887146.
+  Batch    90  of    132.    Elapsed: 63.754329681396484.
+  Batch    95  of    132.    Elapsed: 67.11788821220398.
+  Batch   100  of    132.    Elapsed: 70.48113703727722.
+  Batch   105  of    132.    Elapsed: 73.84432053565979.
+  Batch   110  of    132.    Elapsed: 77.20819878578186.
+  Batch   115  of    132.    Elapsed: 80.57168984413147.
+  Batch   120  of    132.    Elapsed: 83.93487858772278.
+  Batch   125  of    132.    Elapsed: 87.29837727546692.
+  Batch   130  of    132.    Elapsed: 90.66167569160461.
+
+  Average training loss: 0.81
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 3 / 5 ========
+Training...
+  Batch     5  of    132.    Elapsed: 6.176167249679565.
+  Batch    10  of    132.    Elapsed: 9.538965940475464.
+  Batch    15  of    132.    Elapsed: 12.901620864868164.
+  Batch    20  of    132.    Elapsed: 16.264953136444092.
+  Batch    25  of    132.    Elapsed: 19.627939224243164.
+  Batch    30  of    132.    Elapsed: 22.990878343582153.
+  Batch    35  of    132.    Elapsed: 26.35381770133972.
+  Batch    40  of    132.    Elapsed: 29.71716856956482.
+  Batch    45  of    132.    Elapsed: 33.080443382263184.
+  Batch    50  of    132.    Elapsed: 36.44405651092529.
+  Batch    55  of    132.    Elapsed: 39.80740261077881.
+  Batch    60  of    132.    Elapsed: 43.170308351516724.
+  Batch    65  of    132.    Elapsed: 46.533424377441406.
+  Batch    70  of    132.    Elapsed: 49.89656114578247.
+  Batch    75  of    132.    Elapsed: 53.25954842567444.
+  Batch    80  of    132.    Elapsed: 56.62257766723633.
+  Batch    85  of    132.    Elapsed: 59.985920667648315.
+  Batch    90  of    132.    Elapsed: 63.34878587722778.
+  Batch    95  of    132.    Elapsed: 66.71159362792969.
+  Batch   100  of    132.    Elapsed: 70.0747652053833.
+  Batch   105  of    132.    Elapsed: 73.43799614906311.
+  Batch   110  of    132.    Elapsed: 76.80088019371033.
+  Batch   115  of    132.    Elapsed: 80.16371989250183.
+  Batch   120  of    132.    Elapsed: 83.52690553665161.
+  Batch   125  of    132.    Elapsed: 86.89017224311829.
+  Batch   130  of    132.    Elapsed: 90.25339007377625.
+
+  Average training loss: 0.72
+
+Running Validation...
+  Accuracy: 0.93
+
+======== Epoch 4 / 5 ========
+Training...
+  Batch     5  of    132.    Elapsed: 6.175347805023193.
+  Batch    10  of    132.    Elapsed: 9.538154125213623.
+  Batch    15  of    132.    Elapsed: 12.900780439376831.
+  Batch    20  of    132.    Elapsed: 16.26374053955078.
+  Batch    25  of    132.    Elapsed: 19.626874208450317.
+  Batch    30  of    132.    Elapsed: 22.9901180267334.
+  Batch    35  of    132.    Elapsed: 26.353341579437256.
+  Batch    40  of    132.    Elapsed: 29.716110467910767.
+  Batch    45  of    132.    Elapsed: 33.079193353652954.
+  Batch    50  of    132.    Elapsed: 36.442381381988525.
+  Batch    55  of    132.    Elapsed: 39.805498123168945.
+  Batch    60  of    132.    Elapsed: 43.16861438751221.
+  Batch    65  of    132.    Elapsed: 46.53149080276489.
+  Batch    70  of    132.    Elapsed: 49.89431929588318.
+  Batch    75  of    132.    Elapsed: 53.25677251815796.
+  Batch    80  of    132.    Elapsed: 56.619638442993164.
+  Batch    85  of    132.    Elapsed: 59.98237085342407.
+  Batch    90  of    132.    Elapsed: 63.34528160095215.
+  Batch    95  of    132.    Elapsed: 66.70804238319397.
+  Batch   100  of    132.    Elapsed: 70.07093453407288.
+  Batch   105  of    132.    Elapsed: 73.43381643295288.
+  Batch   110  of    132.    Elapsed: 76.79681873321533.
+  Batch   115  of    132.    Elapsed: 80.15979933738708.
+  Batch   120  of    132.    Elapsed: 83.52270603179932.
+  Batch   125  of    132.    Elapsed: 86.8855652809143.
+  Batch   130  of    132.    Elapsed: 90.24833488464355.
+
+  Average training loss: 0.63
+
+Running Validation...
+  Accuracy: 0.89
+
+======== Epoch 5 / 5 ========
+Training...
+  Batch     5  of    132.    Elapsed: 6.175421237945557.
+  Batch    10  of    132.    Elapsed: 9.537923574447632.
+  Batch    15  of    132.    Elapsed: 12.900231122970581.
+  Batch    20  of    132.    Elapsed: 16.262619018554688.
+  Batch    25  of    132.    Elapsed: 19.625277996063232.
+  Batch    30  of    132.    Elapsed: 22.988462448120117.
+  Batch    35  of    132.    Elapsed: 26.351351022720337.
+  Batch    40  of    132.    Elapsed: 29.71441340446472.
+  Batch    45  of    132.    Elapsed: 33.07716178894043.
+  Batch    50  of    132.    Elapsed: 36.43985390663147.
+  Batch    55  of    132.    Elapsed: 39.80260705947876.
+  Batch    60  of    132.    Elapsed: 43.16540479660034.
+  Batch    65  of    132.    Elapsed: 46.52771735191345.
+  Batch    70  of    132.    Elapsed: 49.89044189453125.
+  Batch    75  of    132.    Elapsed: 53.25306463241577.
+  Batch    80  of    132.    Elapsed: 56.61547923088074.
+  Batch    85  of    132.    Elapsed: 59.978139877319336.
+  Batch    90  of    132.    Elapsed: 63.34085035324097.
+  Batch    95  of    132.    Elapsed: 66.7035551071167.
+  Batch   100  of    132.    Elapsed: 70.06637382507324.
+  Batch   105  of    132.    Elapsed: 73.4291570186615.
+  Batch   110  of    132.    Elapsed: 76.79199194908142.
+  Batch   115  of    132.    Elapsed: 80.15463542938232.
+  Batch   120  of    132.    Elapsed: 83.51683235168457.
+  Batch   125  of    132.    Elapsed: 86.87948632240295.
+  Batch   130  of    132.    Elapsed: 90.24207663536072.
+
+  Average training loss: 0.57
+
+Running Validation...
+  Accuracy: 0.88
+
+Training complete!
+{'batch_size': 32, 'learning_rate': 2e-05, 'num_epochs': 5}
+Train report:
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         9
+           1       0.09      0.12      0.10        32
+           2       0.00      0.00      0.00        15
+           3       0.92      0.88      0.90       600
+
+    accuracy                           0.81       656
+   macro avg       0.25      0.25      0.25       656
+weighted avg       0.85      0.81      0.83       656
+
+Validation report:
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         5
+           1       0.09      0.30      0.13        10
+           2       0.38      0.38      0.38         8
+           3       0.96      0.90      0.93       396
+
+    accuracy                           0.87       419
+   macro avg       0.36      0.39      0.36       419
+weighted avg       0.92      0.87      0.89       419
+
+Test report:
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        13
+           1       0.07      0.25      0.11         8
+           2       0.19      0.60      0.29        10
+           3       0.97      0.91      0.94       634
+
+    accuracy                           0.88       665
+   macro avg       0.31      0.44      0.33       665
+weighted avg       0.93      0.88      0.90       665
+
