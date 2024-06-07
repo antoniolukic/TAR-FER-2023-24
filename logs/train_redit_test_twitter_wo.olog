@@ -1,0 +1,99 @@
+
+======== Epoch 1 / 5 ========
+Training...
+  Batch     5  of     21.    Elapsed: 5.985719203948975.
+  Batch    10  of     21.    Elapsed: 9.351327896118164.
+  Batch    15  of     21.    Elapsed: 12.716239929199219.
+  Batch    20  of     21.    Elapsed: 16.081162214279175.
+
+  Average training loss: 0.61
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 2 / 5 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.576176643371582.
+  Batch    10  of     21.    Elapsed: 9.940042734146118.
+  Batch    15  of     21.    Elapsed: 13.304031610488892.
+  Batch    20  of     21.    Elapsed: 16.667603492736816.
+
+  Average training loss: 0.39
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 3 / 5 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.176099061965942.
+  Batch    10  of     21.    Elapsed: 9.539196729660034.
+  Batch    15  of     21.    Elapsed: 12.902425765991211.
+  Batch    20  of     21.    Elapsed: 16.265610456466675.
+
+  Average training loss: 0.34
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 4 / 5 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.175134658813477.
+  Batch    10  of     21.    Elapsed: 9.538233280181885.
+  Batch    15  of     21.    Elapsed: 12.901230096817017.
+  Batch    20  of     21.    Elapsed: 16.264599800109863.
+
+  Average training loss: 0.31
+
+Running Validation...
+  Accuracy: 0.95
+
+======== Epoch 5 / 5 ========
+Training...
+  Batch     5  of     21.    Elapsed: 6.1731789112091064.
+  Batch    10  of     21.    Elapsed: 9.534989595413208.
+  Batch    15  of     21.    Elapsed: 12.896300077438354.
+  Batch    20  of     21.    Elapsed: 16.257691383361816.
+
+  Average training loss: 0.30
+
+Running Validation...
+  Accuracy: 0.95
+
+Training complete!
+{'batch_size': 32, 'learning_rate': 2e-05, 'num_epochs': 5}
+Train report:
+               precision    recall  f1-score   support
+
+         0.0       0.00      0.00      0.00       633
+         1.0       0.00      0.00      0.00       335
+         2.0       0.00      0.00      0.00       358
+         3.0       0.69      1.00      0.81      2896
+
+    accuracy                           0.69      4222
+   macro avg       0.17      0.25      0.20      4222
+weighted avg       0.47      0.69      0.56      4222
+
+Validation report:
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         5
+           1       0.00      0.00      0.00        10
+           2       0.00      0.00      0.00         8
+           3       0.95      1.00      0.97       396
+
+    accuracy                           0.95       419
+   macro avg       0.24      0.25      0.24       419
+weighted avg       0.89      0.95      0.92       419
+
+Test report:
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        91
+           1       0.00      0.00      0.00        92
+           2       0.00      0.00      0.00        56
+           3       0.76      1.00      0.87       771
+
+    accuracy                           0.76      1010
+   macro avg       0.19      0.25      0.22      1010
+weighted avg       0.58      0.76      0.66      1010
+
