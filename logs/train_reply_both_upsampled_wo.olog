@@ -1,0 +1,514 @@
+
+======== Epoch 1 / 5 ========
+Training...
+  Batch     5  of    437.    Elapsed: 5.636791706085205.
+  Batch    10  of    437.    Elapsed: 9.004172086715698.
+  Batch    15  of    437.    Elapsed: 12.370915174484253.
+  Batch    20  of    437.    Elapsed: 15.738388299942017.
+  Batch    25  of    437.    Elapsed: 19.105875730514526.
+  Batch    30  of    437.    Elapsed: 22.473395824432373.
+  Batch    35  of    437.    Elapsed: 25.840635299682617.
+  Batch    40  of    437.    Elapsed: 29.208077669143677.
+  Batch    45  of    437.    Elapsed: 32.57488417625427.
+  Batch    50  of    437.    Elapsed: 35.941476821899414.
+  Batch    55  of    437.    Elapsed: 39.30804657936096.
+  Batch    60  of    437.    Elapsed: 42.674468755722046.
+  Batch    65  of    437.    Elapsed: 46.04106950759888.
+  Batch    70  of    437.    Elapsed: 49.407713651657104.
+  Batch    75  of    437.    Elapsed: 52.77479553222656.
+  Batch    80  of    437.    Elapsed: 56.14127206802368.
+  Batch    85  of    437.    Elapsed: 59.50791907310486.
+  Batch    90  of    437.    Elapsed: 62.874396085739136.
+  Batch    95  of    437.    Elapsed: 66.24122881889343.
+  Batch   100  of    437.    Elapsed: 69.60768723487854.
+  Batch   105  of    437.    Elapsed: 72.97406196594238.
+  Batch   110  of    437.    Elapsed: 76.34065008163452.
+  Batch   115  of    437.    Elapsed: 79.70722961425781.
+  Batch   120  of    437.    Elapsed: 83.07349872589111.
+  Batch   125  of    437.    Elapsed: 86.43938875198364.
+  Batch   130  of    437.    Elapsed: 89.80563688278198.
+  Batch   135  of    437.    Elapsed: 93.17226338386536.
+  Batch   140  of    437.    Elapsed: 96.53846383094788.
+  Batch   145  of    437.    Elapsed: 99.90445876121521.
+  Batch   150  of    437.    Elapsed: 103.27071332931519.
+  Batch   155  of    437.    Elapsed: 106.63720059394836.
+  Batch   160  of    437.    Elapsed: 110.0036997795105.
+  Batch   165  of    437.    Elapsed: 113.37003064155579.
+  Batch   170  of    437.    Elapsed: 116.73652195930481.
+  Batch   175  of    437.    Elapsed: 120.103271484375.
+  Batch   180  of    437.    Elapsed: 123.46969485282898.
+  Batch   185  of    437.    Elapsed: 126.83616828918457.
+  Batch   190  of    437.    Elapsed: 130.20204067230225.
+  Batch   195  of    437.    Elapsed: 133.56818342208862.
+  Batch   200  of    437.    Elapsed: 136.93478727340698.
+  Batch   205  of    437.    Elapsed: 140.30062913894653.
+  Batch   210  of    437.    Elapsed: 143.66701197624207.
+  Batch   215  of    437.    Elapsed: 147.03299570083618.
+  Batch   220  of    437.    Elapsed: 150.39892959594727.
+  Batch   225  of    437.    Elapsed: 153.76473832130432.
+  Batch   230  of    437.    Elapsed: 157.13113164901733.
+  Batch   235  of    437.    Elapsed: 160.49741196632385.
+  Batch   240  of    437.    Elapsed: 163.86359095573425.
+  Batch   245  of    437.    Elapsed: 167.22969508171082.
+  Batch   250  of    437.    Elapsed: 170.5960087776184.
+  Batch   255  of    437.    Elapsed: 173.96172285079956.
+  Batch   260  of    437.    Elapsed: 177.3275933265686.
+  Batch   265  of    437.    Elapsed: 180.69352960586548.
+  Batch   270  of    437.    Elapsed: 184.05945205688477.
+  Batch   275  of    437.    Elapsed: 187.42558121681213.
+  Batch   280  of    437.    Elapsed: 190.7913737297058.
+  Batch   285  of    437.    Elapsed: 194.15763092041016.
+  Batch   290  of    437.    Elapsed: 197.5234932899475.
+  Batch   295  of    437.    Elapsed: 200.8896987438202.
+  Batch   300  of    437.    Elapsed: 204.2555046081543.
+  Batch   305  of    437.    Elapsed: 207.62174725532532.
+  Batch   310  of    437.    Elapsed: 210.98751831054688.
+  Batch   315  of    437.    Elapsed: 214.3533091545105.
+  Batch   320  of    437.    Elapsed: 217.7193260192871.
+  Batch   325  of    437.    Elapsed: 221.0848617553711.
+  Batch   330  of    437.    Elapsed: 224.45064330101013.
+  Batch   335  of    437.    Elapsed: 227.8164825439453.
+  Batch   340  of    437.    Elapsed: 231.18219184875488.
+  Batch   345  of    437.    Elapsed: 234.54770493507385.
+  Batch   350  of    437.    Elapsed: 237.91357564926147.
+  Batch   355  of    437.    Elapsed: 241.27921962738037.
+  Batch   360  of    437.    Elapsed: 244.6452145576477.
+  Batch   365  of    437.    Elapsed: 248.01089143753052.
+  Batch   370  of    437.    Elapsed: 251.37670993804932.
+  Batch   375  of    437.    Elapsed: 254.74240350723267.
+  Batch   380  of    437.    Elapsed: 258.1080114841461.
+  Batch   385  of    437.    Elapsed: 261.4742019176483.
+  Batch   390  of    437.    Elapsed: 264.8399615287781.
+  Batch   395  of    437.    Elapsed: 268.20597290992737.
+  Batch   400  of    437.    Elapsed: 271.5718879699707.
+  Batch   405  of    437.    Elapsed: 274.937783241272.
+  Batch   410  of    437.    Elapsed: 278.3034636974335.
+  Batch   415  of    437.    Elapsed: 281.66940784454346.
+  Batch   420  of    437.    Elapsed: 285.03515815734863.
+  Batch   425  of    437.    Elapsed: 288.4007625579834.
+  Batch   430  of    437.    Elapsed: 291.7669429779053.
+  Batch   435  of    437.    Elapsed: 295.1325273513794.
+
+  Average training loss: 0.83
+
+Running Validation...
+  Accuracy: 0.88
+
+======== Epoch 2 / 5 ========
+Training...
+  Batch     5  of    437.    Elapsed: 6.579508066177368.
+  Batch    10  of    437.    Elapsed: 9.941885709762573.
+  Batch    15  of    437.    Elapsed: 13.304391622543335.
+  Batch    20  of    437.    Elapsed: 16.667272329330444.
+  Batch    25  of    437.    Elapsed: 20.030051946640015.
+  Batch    30  of    437.    Elapsed: 23.392913579940796.
+  Batch    35  of    437.    Elapsed: 26.755807876586914.
+  Batch    40  of    437.    Elapsed: 30.11868405342102.
+  Batch    45  of    437.    Elapsed: 33.48132848739624.
+  Batch    50  of    437.    Elapsed: 36.843631744384766.
+  Batch    55  of    437.    Elapsed: 40.20663499832153.
+  Batch    60  of    437.    Elapsed: 43.569276332855225.
+  Batch    65  of    437.    Elapsed: 46.93232250213623.
+  Batch    70  of    437.    Elapsed: 50.29519748687744.
+  Batch    75  of    437.    Elapsed: 53.658565521240234.
+  Batch    80  of    437.    Elapsed: 57.02130460739136.
+  Batch    85  of    437.    Elapsed: 60.38408708572388.
+  Batch    90  of    437.    Elapsed: 63.746899127960205.
+  Batch    95  of    437.    Elapsed: 67.10939145088196.
+  Batch   100  of    437.    Elapsed: 70.47231245040894.
+  Batch   105  of    437.    Elapsed: 73.83482956886292.
+  Batch   110  of    437.    Elapsed: 77.1974618434906.
+  Batch   115  of    437.    Elapsed: 80.56040835380554.
+  Batch   120  of    437.    Elapsed: 83.92336249351501.
+  Batch   125  of    437.    Elapsed: 87.2864785194397.
+  Batch   130  of    437.    Elapsed: 90.6494243144989.
+  Batch   135  of    437.    Elapsed: 94.01241040229797.
+  Batch   140  of    437.    Elapsed: 97.37526297569275.
+  Batch   145  of    437.    Elapsed: 100.73807740211487.
+  Batch   150  of    437.    Elapsed: 104.10074520111084.
+  Batch   155  of    437.    Elapsed: 107.46361970901489.
+  Batch   160  of    437.    Elapsed: 110.82678985595703.
+  Batch   165  of    437.    Elapsed: 114.19006681442261.
+  Batch   170  of    437.    Elapsed: 117.55271315574646.
+  Batch   175  of    437.    Elapsed: 120.91564750671387.
+  Batch   180  of    437.    Elapsed: 124.27825427055359.
+  Batch   185  of    437.    Elapsed: 127.64134311676025.
+  Batch   190  of    437.    Elapsed: 131.00464749336243.
+  Batch   195  of    437.    Elapsed: 134.3675491809845.
+  Batch   200  of    437.    Elapsed: 137.73037457466125.
+  Batch   205  of    437.    Elapsed: 141.09309244155884.
+  Batch   210  of    437.    Elapsed: 144.45599555969238.
+  Batch   215  of    437.    Elapsed: 147.81860184669495.
+  Batch   220  of    437.    Elapsed: 151.18141436576843.
+  Batch   225  of    437.    Elapsed: 154.54425692558289.
+  Batch   230  of    437.    Elapsed: 157.9071500301361.
+  Batch   235  of    437.    Elapsed: 161.27011847496033.
+  Batch   240  of    437.    Elapsed: 164.6328854560852.
+  Batch   245  of    437.    Elapsed: 167.99574208259583.
+  Batch   250  of    437.    Elapsed: 171.35824584960938.
+  Batch   255  of    437.    Elapsed: 174.72103333473206.
+  Batch   260  of    437.    Elapsed: 178.08394503593445.
+  Batch   265  of    437.    Elapsed: 181.44702744483948.
+  Batch   270  of    437.    Elapsed: 184.8102686405182.
+  Batch   275  of    437.    Elapsed: 188.1735851764679.
+  Batch   280  of    437.    Elapsed: 191.5368459224701.
+  Batch   285  of    437.    Elapsed: 194.89984226226807.
+  Batch   290  of    437.    Elapsed: 198.26292037963867.
+  Batch   295  of    437.    Elapsed: 201.62588715553284.
+  Batch   300  of    437.    Elapsed: 204.98885440826416.
+  Batch   305  of    437.    Elapsed: 208.35193514823914.
+  Batch   310  of    437.    Elapsed: 211.71524930000305.
+  Batch   315  of    437.    Elapsed: 215.07790756225586.
+  Batch   320  of    437.    Elapsed: 218.44075632095337.
+  Batch   325  of    437.    Elapsed: 221.80378413200378.
+  Batch   330  of    437.    Elapsed: 225.1656699180603.
+  Batch   335  of    437.    Elapsed: 228.5273790359497.
+  Batch   340  of    437.    Elapsed: 231.88937830924988.
+  Batch   345  of    437.    Elapsed: 235.25149774551392.
+  Batch   350  of    437.    Elapsed: 238.61321926116943.
+  Batch   355  of    437.    Elapsed: 241.97526931762695.
+  Batch   360  of    437.    Elapsed: 245.33706545829773.
+  Batch   365  of    437.    Elapsed: 248.69886374473572.
+  Batch   370  of    437.    Elapsed: 252.06069111824036.
+  Batch   375  of    437.    Elapsed: 255.4225571155548.
+  Batch   380  of    437.    Elapsed: 258.78438901901245.
+  Batch   385  of    437.    Elapsed: 262.14609360694885.
+  Batch   390  of    437.    Elapsed: 265.5088732242584.
+  Batch   395  of    437.    Elapsed: 268.8718378543854.
+  Batch   400  of    437.    Elapsed: 272.23459815979004.
+  Batch   405  of    437.    Elapsed: 275.5971190929413.
+  Batch   410  of    437.    Elapsed: 278.95985198020935.
+  Batch   415  of    437.    Elapsed: 282.3225016593933.
+  Batch   420  of    437.    Elapsed: 285.685640335083.
+  Batch   425  of    437.    Elapsed: 289.0485625267029.
+  Batch   430  of    437.    Elapsed: 292.41129302978516.
+  Batch   435  of    437.    Elapsed: 295.7743046283722.
+
+  Average training loss: 0.23
+
+Running Validation...
+  Accuracy: 0.91
+
+======== Epoch 3 / 5 ========
+Training...
+  Batch     5  of    437.    Elapsed: 6.631303787231445.
+  Batch    10  of    437.    Elapsed: 9.993825674057007.
+  Batch    15  of    437.    Elapsed: 13.356735467910767.
+  Batch    20  of    437.    Elapsed: 16.71971845626831.
+  Batch    25  of    437.    Elapsed: 20.082809686660767.
+  Batch    30  of    437.    Elapsed: 23.445306539535522.
+  Batch    35  of    437.    Elapsed: 26.807990789413452.
+  Batch    40  of    437.    Elapsed: 30.17071223258972.
+  Batch    45  of    437.    Elapsed: 33.53344225883484.
+  Batch    50  of    437.    Elapsed: 36.89639687538147.
+  Batch    55  of    437.    Elapsed: 40.259448528289795.
+  Batch    60  of    437.    Elapsed: 43.622191190719604.
+  Batch    65  of    437.    Elapsed: 46.98521304130554.
+  Batch    70  of    437.    Elapsed: 50.347909450531006.
+  Batch    75  of    437.    Elapsed: 53.710705518722534.
+  Batch    80  of    437.    Elapsed: 57.07416534423828.
+  Batch    85  of    437.    Elapsed: 60.43734002113342.
+  Batch    90  of    437.    Elapsed: 63.800999879837036.
+  Batch    95  of    437.    Elapsed: 67.16376185417175.
+  Batch   100  of    437.    Elapsed: 70.52695870399475.
+  Batch   105  of    437.    Elapsed: 73.88987970352173.
+  Batch   110  of    437.    Elapsed: 77.25320863723755.
+  Batch   115  of    437.    Elapsed: 80.61660838127136.
+  Batch   120  of    437.    Elapsed: 83.979896068573.
+  Batch   125  of    437.    Elapsed: 87.34275388717651.
+  Batch   130  of    437.    Elapsed: 90.70545649528503.
+  Batch   135  of    437.    Elapsed: 94.06855511665344.
+  Batch   140  of    437.    Elapsed: 97.43133068084717.
+  Batch   145  of    437.    Elapsed: 100.79395890235901.
+  Batch   150  of    437.    Elapsed: 104.15659046173096.
+  Batch   155  of    437.    Elapsed: 107.51943397521973.
+  Batch   160  of    437.    Elapsed: 110.88194918632507.
+  Batch   165  of    437.    Elapsed: 114.24470782279968.
+  Batch   170  of    437.    Elapsed: 117.60766172409058.
+  Batch   175  of    437.    Elapsed: 120.97014999389648.
+  Batch   180  of    437.    Elapsed: 124.33302974700928.
+  Batch   185  of    437.    Elapsed: 127.69554686546326.
+  Batch   190  of    437.    Elapsed: 131.0583779811859.
+  Batch   195  of    437.    Elapsed: 134.42109990119934.
+  Batch   200  of    437.    Elapsed: 137.78386330604553.
+  Batch   205  of    437.    Elapsed: 141.14666509628296.
+  Batch   210  of    437.    Elapsed: 144.50955057144165.
+  Batch   215  of    437.    Elapsed: 147.87269496917725.
+  Batch   220  of    437.    Elapsed: 151.235595703125.
+  Batch   225  of    437.    Elapsed: 154.5982747077942.
+  Batch   230  of    437.    Elapsed: 157.96097779273987.
+  Batch   235  of    437.    Elapsed: 161.32396817207336.
+  Batch   240  of    437.    Elapsed: 164.68692469596863.
+  Batch   245  of    437.    Elapsed: 168.04982328414917.
+  Batch   250  of    437.    Elapsed: 171.41239380836487.
+  Batch   255  of    437.    Elapsed: 174.77544856071472.
+  Batch   260  of    437.    Elapsed: 178.1384792327881.
+  Batch   265  of    437.    Elapsed: 181.50091791152954.
+  Batch   270  of    437.    Elapsed: 184.86397242546082.
+  Batch   275  of    437.    Elapsed: 188.2269003391266.
+  Batch   280  of    437.    Elapsed: 191.58980870246887.
+  Batch   285  of    437.    Elapsed: 194.95269513130188.
+  Batch   290  of    437.    Elapsed: 198.31570672988892.
+  Batch   295  of    437.    Elapsed: 201.6787507534027.
+  Batch   300  of    437.    Elapsed: 205.04154753684998.
+  Batch   305  of    437.    Elapsed: 208.40427494049072.
+  Batch   310  of    437.    Elapsed: 211.76711773872375.
+  Batch   315  of    437.    Elapsed: 215.1304395198822.
+  Batch   320  of    437.    Elapsed: 218.49329257011414.
+  Batch   325  of    437.    Elapsed: 221.85663604736328.
+  Batch   330  of    437.    Elapsed: 225.21973586082458.
+  Batch   335  of    437.    Elapsed: 228.582754611969.
+  Batch   340  of    437.    Elapsed: 231.94535636901855.
+  Batch   345  of    437.    Elapsed: 235.30829429626465.
+  Batch   350  of    437.    Elapsed: 238.67092037200928.
+  Batch   355  of    437.    Elapsed: 242.0337643623352.
+  Batch   360  of    437.    Elapsed: 245.39679050445557.
+  Batch   365  of    437.    Elapsed: 248.75982093811035.
+  Batch   370  of    437.    Elapsed: 252.1228849887848.
+  Batch   375  of    437.    Elapsed: 255.48575520515442.
+  Batch   380  of    437.    Elapsed: 258.8487596511841.
+  Batch   385  of    437.    Elapsed: 262.2117853164673.
+  Batch   390  of    437.    Elapsed: 265.57463002204895.
+  Batch   395  of    437.    Elapsed: 268.9378170967102.
+  Batch   400  of    437.    Elapsed: 272.30063128471375.
+  Batch   405  of    437.    Elapsed: 275.66347765922546.
+  Batch   410  of    437.    Elapsed: 279.0264403820038.
+  Batch   415  of    437.    Elapsed: 282.38902521133423.
+  Batch   420  of    437.    Elapsed: 285.7517728805542.
+  Batch   425  of    437.    Elapsed: 289.1146094799042.
+  Batch   430  of    437.    Elapsed: 292.477468252182.
+  Batch   435  of    437.    Elapsed: 295.8403708934784.
+
+  Average training loss: 0.08
+
+Running Validation...
+  Accuracy: 0.86
+
+======== Epoch 4 / 5 ========
+Training...
+  Batch     5  of    437.    Elapsed: 6.174784421920776.
+  Batch    10  of    437.    Elapsed: 9.537641048431396.
+  Batch    15  of    437.    Elapsed: 12.900146961212158.
+  Batch    20  of    437.    Elapsed: 16.263216018676758.
+  Batch    25  of    437.    Elapsed: 19.62592387199402.
+  Batch    30  of    437.    Elapsed: 22.988352060317993.
+  Batch    35  of    437.    Elapsed: 26.351161241531372.
+  Batch    40  of    437.    Elapsed: 29.713741064071655.
+  Batch    45  of    437.    Elapsed: 33.0763783454895.
+  Batch    50  of    437.    Elapsed: 36.43867063522339.
+  Batch    55  of    437.    Elapsed: 39.801291942596436.
+  Batch    60  of    437.    Elapsed: 43.164249658584595.
+  Batch    65  of    437.    Elapsed: 46.527310371398926.
+  Batch    70  of    437.    Elapsed: 49.89001655578613.
+  Batch    75  of    437.    Elapsed: 53.252501249313354.
+  Batch    80  of    437.    Elapsed: 56.615456342697144.
+  Batch    85  of    437.    Elapsed: 59.97832536697388.
+  Batch    90  of    437.    Elapsed: 63.34109044075012.
+  Batch    95  of    437.    Elapsed: 66.70430493354797.
+  Batch   100  of    437.    Elapsed: 70.06699395179749.
+  Batch   105  of    437.    Elapsed: 73.42965149879456.
+  Batch   110  of    437.    Elapsed: 76.7928614616394.
+  Batch   115  of    437.    Elapsed: 80.15546226501465.
+  Batch   120  of    437.    Elapsed: 83.51823735237122.
+  Batch   125  of    437.    Elapsed: 86.8810555934906.
+  Batch   130  of    437.    Elapsed: 90.24389505386353.
+  Batch   135  of    437.    Elapsed: 93.60667252540588.
+  Batch   140  of    437.    Elapsed: 96.96922707557678.
+  Batch   145  of    437.    Elapsed: 100.33183145523071.
+  Batch   150  of    437.    Elapsed: 103.69440054893494.
+  Batch   155  of    437.    Elapsed: 107.05725431442261.
+  Batch   160  of    437.    Elapsed: 110.42026782035828.
+  Batch   165  of    437.    Elapsed: 113.78300786018372.
+  Batch   170  of    437.    Elapsed: 117.14593243598938.
+  Batch   175  of    437.    Elapsed: 120.5085506439209.
+  Batch   180  of    437.    Elapsed: 123.87128949165344.
+  Batch   185  of    437.    Elapsed: 127.23401069641113.
+  Batch   190  of    437.    Elapsed: 130.59692454338074.
+  Batch   195  of    437.    Elapsed: 133.95948266983032.
+  Batch   200  of    437.    Elapsed: 137.32222700119019.
+  Batch   205  of    437.    Elapsed: 140.68500924110413.
+  Batch   210  of    437.    Elapsed: 144.0476839542389.
+  Batch   215  of    437.    Elapsed: 147.41071939468384.
+  Batch   220  of    437.    Elapsed: 150.77368640899658.
+  Batch   225  of    437.    Elapsed: 154.13688898086548.
+  Batch   230  of    437.    Elapsed: 157.49971985816956.
+  Batch   235  of    437.    Elapsed: 160.86265301704407.
+  Batch   240  of    437.    Elapsed: 164.22570252418518.
+  Batch   245  of    437.    Elapsed: 167.5889174938202.
+  Batch   250  of    437.    Elapsed: 170.9517674446106.
+  Batch   255  of    437.    Elapsed: 174.3146677017212.
+  Batch   260  of    437.    Elapsed: 177.67729234695435.
+  Batch   265  of    437.    Elapsed: 181.04030537605286.
+  Batch   270  of    437.    Elapsed: 184.4029095172882.
+  Batch   275  of    437.    Elapsed: 187.76581144332886.
+  Batch   280  of    437.    Elapsed: 191.12858319282532.
+  Batch   285  of    437.    Elapsed: 194.49120616912842.
+  Batch   290  of    437.    Elapsed: 197.85401034355164.
+  Batch   295  of    437.    Elapsed: 201.2169313430786.
+  Batch   300  of    437.    Elapsed: 204.5793354511261.
+  Batch   305  of    437.    Elapsed: 207.94190287590027.
+  Batch   310  of    437.    Elapsed: 211.3047878742218.
+  Batch   315  of    437.    Elapsed: 214.667494058609.
+  Batch   320  of    437.    Elapsed: 218.030606508255.
+  Batch   325  of    437.    Elapsed: 221.3930926322937.
+  Batch   330  of    437.    Elapsed: 224.7556118965149.
+  Batch   335  of    437.    Elapsed: 228.11853313446045.
+  Batch   340  of    437.    Elapsed: 231.48107743263245.
+  Batch   345  of    437.    Elapsed: 234.84415531158447.
+  Batch   350  of    437.    Elapsed: 238.20700120925903.
+  Batch   355  of    437.    Elapsed: 241.57012462615967.
+  Batch   360  of    437.    Elapsed: 244.93298387527466.
+  Batch   365  of    437.    Elapsed: 248.29592609405518.
+  Batch   370  of    437.    Elapsed: 251.6587996482849.
+  Batch   375  of    437.    Elapsed: 255.02155780792236.
+  Batch   380  of    437.    Elapsed: 258.3843297958374.
+  Batch   385  of    437.    Elapsed: 261.74700903892517.
+  Batch   390  of    437.    Elapsed: 265.11022114753723.
+  Batch   395  of    437.    Elapsed: 268.4731070995331.
+  Batch   400  of    437.    Elapsed: 271.83621168136597.
+  Batch   405  of    437.    Elapsed: 275.1989858150482.
+  Batch   410  of    437.    Elapsed: 278.5621294975281.
+  Batch   415  of    437.    Elapsed: 281.9252436161041.
+  Batch   420  of    437.    Elapsed: 285.28836822509766.
+  Batch   425  of    437.    Elapsed: 288.651273727417.
+  Batch   430  of    437.    Elapsed: 292.01419472694397.
+  Batch   435  of    437.    Elapsed: 295.37713599205017.
+
+  Average training loss: 0.03
+
+Running Validation...
+  Accuracy: 0.92
+
+======== Epoch 5 / 5 ========
+Training...
+  Batch     5  of    437.    Elapsed: 6.634882926940918.
+  Batch    10  of    437.    Elapsed: 10.000604629516602.
+  Batch    15  of    437.    Elapsed: 13.365907430648804.
+  Batch    20  of    437.    Elapsed: 16.731279611587524.
+  Batch    25  of    437.    Elapsed: 20.096784114837646.
+  Batch    30  of    437.    Elapsed: 23.462612628936768.
+  Batch    35  of    437.    Elapsed: 26.82780170440674.
+  Batch    40  of    437.    Elapsed: 30.193164587020874.
+  Batch    45  of    437.    Elapsed: 33.55863666534424.
+  Batch    50  of    437.    Elapsed: 36.92414379119873.
+  Batch    55  of    437.    Elapsed: 40.289576053619385.
+  Batch    60  of    437.    Elapsed: 43.65534687042236.
+  Batch    65  of    437.    Elapsed: 47.02085208892822.
+  Batch    70  of    437.    Elapsed: 50.38654160499573.
+  Batch    75  of    437.    Elapsed: 53.752222299575806.
+  Batch    80  of    437.    Elapsed: 57.11781668663025.
+  Batch    85  of    437.    Elapsed: 60.4834463596344.
+  Batch    90  of    437.    Elapsed: 63.84904742240906.
+  Batch    95  of    437.    Elapsed: 67.21445226669312.
+  Batch   100  of    437.    Elapsed: 70.58032846450806.
+  Batch   105  of    437.    Elapsed: 73.94564270973206.
+  Batch   110  of    437.    Elapsed: 77.31155681610107.
+  Batch   115  of    437.    Elapsed: 80.67706608772278.
+  Batch   120  of    437.    Elapsed: 84.04289054870605.
+  Batch   125  of    437.    Elapsed: 87.40903806686401.
+  Batch   130  of    437.    Elapsed: 90.77443885803223.
+  Batch   135  of    437.    Elapsed: 94.14005184173584.
+  Batch   140  of    437.    Elapsed: 97.50528883934021.
+  Batch   145  of    437.    Elapsed: 100.8709990978241.
+  Batch   150  of    437.    Elapsed: 104.23663282394409.
+  Batch   155  of    437.    Elapsed: 107.602294921875.
+  Batch   160  of    437.    Elapsed: 110.96768808364868.
+  Batch   165  of    437.    Elapsed: 114.33330464363098.
+  Batch   170  of    437.    Elapsed: 117.69877886772156.
+  Batch   175  of    437.    Elapsed: 121.06398105621338.
+  Batch   180  of    437.    Elapsed: 124.42947292327881.
+  Batch   185  of    437.    Elapsed: 127.79504156112671.
+  Batch   190  of    437.    Elapsed: 131.16085195541382.
+  Batch   195  of    437.    Elapsed: 134.5264871120453.
+  Batch   200  of    437.    Elapsed: 137.89205169677734.
+  Batch   205  of    437.    Elapsed: 141.257479429245.
+  Batch   210  of    437.    Elapsed: 144.62316370010376.
+  Batch   215  of    437.    Elapsed: 147.9888789653778.
+  Batch   220  of    437.    Elapsed: 151.35440397262573.
+  Batch   225  of    437.    Elapsed: 154.7200403213501.
+  Batch   230  of    437.    Elapsed: 158.08570075035095.
+  Batch   235  of    437.    Elapsed: 161.45162987709045.
+  Batch   240  of    437.    Elapsed: 164.8173360824585.
+  Batch   245  of    437.    Elapsed: 168.18264889717102.
+  Batch   250  of    437.    Elapsed: 171.54862332344055.
+  Batch   255  of    437.    Elapsed: 174.91441893577576.
+  Batch   260  of    437.    Elapsed: 178.27989840507507.
+  Batch   265  of    437.    Elapsed: 181.64515376091003.
+  Batch   270  of    437.    Elapsed: 185.01082968711853.
+  Batch   275  of    437.    Elapsed: 188.3758327960968.
+  Batch   280  of    437.    Elapsed: 191.74090790748596.
+  Batch   285  of    437.    Elapsed: 195.10586810112.
+  Batch   290  of    437.    Elapsed: 198.47086238861084.
+  Batch   295  of    437.    Elapsed: 201.83600616455078.
+  Batch   300  of    437.    Elapsed: 205.2013521194458.
+  Batch   305  of    437.    Elapsed: 208.5668408870697.
+  Batch   310  of    437.    Elapsed: 211.93209147453308.
+  Batch   315  of    437.    Elapsed: 215.2971773147583.
+  Batch   320  of    437.    Elapsed: 218.66256308555603.
+  Batch   325  of    437.    Elapsed: 222.02809596061707.
+  Batch   330  of    437.    Elapsed: 225.3937909603119.
+  Batch   335  of    437.    Elapsed: 228.75926184654236.
+  Batch   340  of    437.    Elapsed: 232.1247217655182.
+  Batch   345  of    437.    Elapsed: 235.49069666862488.
+  Batch   350  of    437.    Elapsed: 238.85600924491882.
+  Batch   355  of    437.    Elapsed: 242.2211833000183.
+  Batch   360  of    437.    Elapsed: 245.58666515350342.
+  Batch   365  of    437.    Elapsed: 248.95192909240723.
+  Batch   370  of    437.    Elapsed: 252.3172585964203.
+  Batch   375  of    437.    Elapsed: 255.68291544914246.
+  Batch   380  of    437.    Elapsed: 259.0481035709381.
+  Batch   385  of    437.    Elapsed: 262.4132430553436.
+  Batch   390  of    437.    Elapsed: 265.77873134613037.
+  Batch   395  of    437.    Elapsed: 269.1439862251282.
+  Batch   400  of    437.    Elapsed: 272.5096342563629.
+  Batch   405  of    437.    Elapsed: 275.87511706352234.
+  Batch   410  of    437.    Elapsed: 279.24034309387207.
+  Batch   415  of    437.    Elapsed: 282.6057698726654.
+  Batch   420  of    437.    Elapsed: 285.9710042476654.
+  Batch   425  of    437.    Elapsed: 289.33648443222046.
+  Batch   430  of    437.    Elapsed: 292.7021813392639.
+  Batch   435  of    437.    Elapsed: 296.0670921802521.
+
+  Average training loss: 0.02
+
+Running Validation...
+  Accuracy: 0.89
+
+Training complete!
+{'batch_size': 32, 'learning_rate': 2e-05, 'num_epochs': 5}
+Train report:
+               precision    recall  f1-score   support
+
+         0.0       0.13      0.13      0.13       642
+         1.0       0.07      0.07      0.07       367
+         2.0       0.08      0.09      0.09       373
+         3.0       0.71      0.71      0.71      3496
+
+    accuracy                           0.54      4878
+   macro avg       0.25      0.25      0.25      4878
+weighted avg       0.54      0.54      0.54      4878
+
+Validation report:
+               precision    recall  f1-score   support
+
+           0       0.50      0.20      0.29         5
+           1       0.09      0.20      0.12        10
+           2       0.50      0.25      0.33         8
+           3       0.96      0.94      0.95       396
+
+    accuracy                           0.90       419
+   macro avg       0.51      0.40      0.42       419
+weighted avg       0.92      0.90      0.91       419
+
+Test report:
+               precision    recall  f1-score   support
+
+           0       0.12      0.10      0.11       104
+           1       0.31      0.15      0.20       100
+           2       0.45      0.45      0.45        66
+           3       0.86      0.90      0.88      1405
+
+    accuracy                           0.79      1675
+   macro avg       0.43      0.40      0.41      1675
+weighted avg       0.76      0.79      0.77      1675
+
