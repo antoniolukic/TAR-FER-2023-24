@@ -3,6 +3,7 @@ import pandas as pd
 import re
 import torch
 from sklearn.preprocessing import LabelEncoder
+from sklearn.utils import resample
 from tqdm.auto import tqdm
 tqdm.pandas(desc='Progress')
 from torch.utils.data import Dataset, DataLoader
@@ -18,9 +19,9 @@ def merge_datasets(dataset_name):
     df_train_reply = pd.read_csv(f'processed_dataset/reply_{dataset_name}.csv')
     df_valid_reply = pd.read_csv('processed_dataset/reply_valid.csv')
     df_test_reply = pd.read_csv(f'processed_dataset/test_reply_{dataset_name}.csv')
-    df_train_pred = pd.read_csv('train_pred.txt', sep='\t')
+    df_train_pred = pd.read_csv(f'train_pred_{dataset_name}.txt', sep='\t')
     df_valid_pred = pd.read_csv('valid_pred.txt', sep='\t')
-    df_test_pred = pd.read_csv('test_pred.txt', sep='\t')
+    df_test_pred = pd.read_csv(f'test_pred_{dataset_name}.txt', sep='\t')
 
     df_train_reply['SourceKey'] = df_train_reply['SourceKey'].astype(str)
     df_valid_reply['SourceKey'] = df_valid_reply['SourceKey'].astype(str)
@@ -32,9 +33,9 @@ def merge_datasets(dataset_name):
     df_train = pd.merge(df_train_reply, df_train_pred, left_on='SourceKey', right_on='Key', how='inner')
     df_valid = pd.merge(df_valid_reply, df_valid_pred, left_on='SourceKey', right_on='Key', how='inner')
     df_test = pd.merge(df_test_reply, df_test_pred, left_on='SourceKey', right_on='Key', how='inner')
-    df_train['combined_text'] = df_train['Text_x']  +  " [SEP] " + df_train['Text_y']
-    df_valid['combined_text'] = df_valid['Text_x']  + " [SEP] " + df_valid['Text_y']
-    df_test['combined_text'] = df_test['Text_x']  + " [SEP] " + df_test['Text_y']
+    df_train['combined_text'] = df_train['Text_x'] + " [LABEL] " + df_train['Prediction'].astype(str) +  " [SEP] " + df_train['Text_y']
+    df_valid['combined_text'] = df_valid['Text_x'] + " [LABEL] " + df_train['Prediction'].astype(str) + " [SEP] " + df_valid['Text_y']
+    df_test['combined_text'] = df_test['Text_x']  + " [LABEL] " + df_train['Prediction'].astype(str) + " [SEP] " + df_test['Text_y']
 
     return df_train, df_valid, df_test
 
@@ -99,15 +100,46 @@ debug = 0
 
 
 
-dataset_name = 'twitter'
+dataset_name = 'redit'
+dataset_name_2 = 'twitter'
 df_train, df_valid, df_test = merge_datasets(dataset_name)
+#df_train_2, _, df_test_2 = merge_datasets(dataset_name_2)
+
+
+if dataset_name_2 is not None:
+    df_train_2, _, df_test_2 = merge_datasets(dataset_name_2)
+    df_train = pd.concat([df_train, df_train_2], ignore_index=True)
+    df_test = pd.concat([df_test, df_test_2], ignore_index=True)
+
+def upsample(df):
+    df_majority = df[df.Label_x == 3]  # comments
+    df_minority1 = df[df.Label_x == 0]
+    df_minority2 = df[df.Label_x == 1]
+    df_minority3 = df[df.Label_x == 2]
+
+    df_minority1_upsampled = resample(df_minority1, replace=True, n_samples=len(df_majority), random_state=SEED)
+    df_minority2_upsampled = resample(df_minority2, replace=True, n_samples=len(df_majority), random_state=SEED)
+    df_minority3_upsampled = resample(df_minority3, replace=True, n_samples=len(df_majority), random_state=SEED)
+
+    return pd.concat([df_majority, df_minority1_upsampled, df_minority2_upsampled, df_minority3_upsampled])
+
+
+#train_data, train_sampler, validation_data, validation_sampler, test_data, test_sampler = create_data_samples(upsample(df_train), df_valid, upsample(df_test))
+#train_data_2, train_sampler_2, validation_data_2, validation_sampler_2, test_data_2, test_sampler_2 = create_data_samples(df_train, df_valid, df_test)
+
+
+#df_train, df_valid, df_test = merge_datasets(dataset_name)
 tokenizer = Tokenizer(num_words=max_features)
 
-train_tokenized, test_tokenized, valid_tokenized = tokenize(df_train, df_valid, df_test)
+upsamled_train = upsample(df_train)#df_train#upsample(df_train)
+upsamled_test = upsample(df_test)#df_test#upsample(df_test )
+
+train_tokenized, test_tokenized, valid_tokenized = tokenize(upsamled_train, df_valid, upsamled_test)
+
 
 le = LabelEncoder()
-train_y = le.fit_transform(df_train['Label_x'].values)
-test_y = le.transform(df_test['Label_x'].values)
+train_y = le.fit_transform(upsamled_train['Label_x'].values)
+test_y = le.transform(upsamled_test['Label_x'].values)
 valid_y = le.transform(df_valid['Label_x'].values)
 
 
@@ -241,9 +273,9 @@ def make_predictions(data_loader):
 
         # keep/store predictions
 
-        pred = F.softmax(y_pred, dim=0).cpu().numpy()
+        pred = F.softmax(y_pred, dim=0).cpu().numpy() #y_pred.cpu().numpy()#
 
-        pred = pred.argmax(axis=1)
+        pred = np.argmax(pred, axis=1)
 
        # pred = le.classes_[pred]
 
@@ -255,13 +287,30 @@ def make_predictions(data_loader):
 
     return np.concatenate(predictions, axis=0)
 
-#df_train['Prediction_x'] = make_predictions(train_loader)
-#df_valid['Prediction_x'] = make_predictions(valid_loader)
+df_train['Prediction_x'] = make_predictions(train_loader)
+df_valid['Prediction_x'] = make_predictions(valid_loader)
 df_test['Prediction_x'] = make_predictions(test_loader)
 
-true_labels = torch.tensor(df_test['Label_x'].tolist())
+true_labels = torch.tensor(upsamled_test['Label_x'].tolist())
 
 #predictions = np.concatenate(predictions, axis=0)
-predicted_labels = torch.tensor(df_test['Prediction_x'].tolist())
-
+predicted_labels = torch.tensor(upsamled_test['Prediction_x'].tolist())
+print("Test set:")
 print(classification_report(true_labels, predicted_labels))
+
+
+true_labels = torch.tensor(upsamled_train['Label_x'].tolist())
+
+#predictions = np.concatenate(predictions, axis=0)
+predicted_labels = torch.tensor(upsamled_train['Prediction_x'].tolist())
+print("Train set:")
+print(classification_report(true_labels, predicted_labels))
+
+
+true_labels = torch.tensor(df_valid['Label_x'].tolist())
+
+#predictions = np.concatenate(predictions, axis=0)
+predicted_labels = torch.tensor(df_valid['Prediction_x'].tolist())
+print("Valid set:")
+print(classification_report(true_labels, predicted_labels))
+
