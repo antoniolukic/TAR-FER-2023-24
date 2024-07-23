@@ -19,6 +19,7 @@ def extract_reddit_source_data(directory):
     df = pd.DataFrame(records, columns=['Key', 'Text'])
     return df
 
+
 def extract_twitter_source_data(directory):
     records = []
 
@@ -37,6 +38,7 @@ def extract_twitter_source_data(directory):
     df = pd.DataFrame(records, columns=['Key', 'Text'])
     return df
 
+
 def add_keys_from_json(df, json_path):
     with open(json_path, 'r') as file:
         data = json.load(file)
@@ -52,6 +54,7 @@ def add_keys_from_json(df, json_path):
     df['Label'] = df['Label'].map(label_mapping)
     return df
 
+
 def get_source_data():
     directory_reddit = 'dataset/rumoureval-2019-training-data/reddit-training-data'
     directory_twitter = 'dataset/rumoureval-2019-training-data/twitter-english'
@@ -63,8 +66,8 @@ def get_source_data():
     df_r = df_r.dropna(subset=['Label'])  # there exists some NaN rows?!!
     df_t = df_t.dropna(subset=['Label'])  # there exists some NaN rows?!!
     
-    df_r.to_csv('source_redit.csv', sep='\t', index=False)
-    df_t.to_csv('source_twitter.csv', sep='\t', index=False)
+    df_r.to_csv('source_redit.csv', index=False)
+    df_t.to_csv('source_twitter.csv', index=False)
     df_train = pd.concat([df_r, df_t], axis = 0)
 
     #df_train = add_keys_from_json(df_train, 'dataset/rumoureval-2019-training-data/train-key.json')
@@ -75,9 +78,10 @@ def get_source_data():
     df_valid = add_keys_from_json(df_valid, 'dataset/rumoureval-2019-training-data/dev-key.json')
     df_valid = df_valid.dropna(subset=['Label'])
 
-    df_valid.to_csv('source_valid.csv', sep='\t', index=False)
+    df_valid.to_csv('source_valid.csv', index=False)
 
     return df_train, df_valid
+
 
 def extract_reddit_reply_data(directory):
     records = []
@@ -125,6 +129,7 @@ def extract_twitter_reply_data(directory):
     df = pd.DataFrame(records, columns=['SourceKey', 'Key', 'Text'])
     return df
 
+
 def get_reply_data():
     directory_reddit = 'dataset/rumoureval-2019-training-data/reddit-training-data'
     directory_twitter = 'dataset/rumoureval-2019-training-data/twitter-english'
@@ -136,8 +141,8 @@ def get_reply_data():
     df_r = df_r.dropna(subset=['Label', 'SourceKey', 'Key'])
     df_t = df_t.dropna(subset=['Label', 'SourceKey', 'Key'])
 
-    df_r.to_csv('reply_redit.csv', sep='\t', index=False)
-    df_t.to_csv('reply_twitter.csv', sep='\t', index=False)
+    df_r.to_csv('reply_redit.csv', index=False)
+    df_t.to_csv('reply_twitter.csv', index=False)
     df_train = pd.concat([df_r, df_t], axis = 0)
     
     #df_train = add_keys_from_json(df_train, 'dataset/rumoureval-2019-training-data/train-key.json')
@@ -148,9 +153,10 @@ def get_reply_data():
     df_valid = add_keys_from_json(df_valid, 'dataset/rumoureval-2019-training-data/dev-key.json')
     df_valid = df_valid.dropna(subset=['Label', 'SourceKey', 'Key'])
 
-    df_valid.to_csv('reply_valid.csv', sep='\t', index=False)
+    df_valid.to_csv('reply_valid.csv', index=False)
 
     return df_train, df_valid
+
 
 def get_test_data():
     directory_reddit = 'dataset/rumoureval-2019-test-data/reddit-test-data'
@@ -163,8 +169,8 @@ def get_test_data():
     df_r = df_r.dropna(subset=['Label'])  # there exists some NaN rows?!!
     df_t = df_t.dropna(subset=['Label'])  # there exists some NaN rows?!!
     
-    df_r.to_csv('test_source_redit.csv', sep='\t', index=False)
-    df_t.to_csv('test_source_twitter.csv', sep='\t', index=False)
+    df_r.to_csv('test_source_redit.csv', index=False)
+    df_t.to_csv('test_source_twitter.csv', index=False)
     df_test_source = pd.concat([df_r, df_t], axis = 0)
 
     df_r = extract_reddit_reply_data(directory_reddit)
@@ -174,14 +180,15 @@ def get_test_data():
     df_r = df_r.dropna(subset=['Label'])  # there exists some NaN rows?!!
     df_t = df_t.dropna(subset=['Label'])  # there exists some NaN rows?!!
     
-    df_r.to_csv('test_reply_redit.csv', sep='\t', index=False)
-    df_t.to_csv('test_reply_twitter.csv', sep='\t', index=False)
+    df_r.to_csv('test_reply_redit.csv', index=False)
+    df_t.to_csv('test_reply_twitter.csv', index=False)
     df_test_reply = pd.concat([df_r, df_t], axis = 0)
 
     return df_test_source, df_test_reply
 
 
 if __name__ == '__main__':
-    get_source_data()
-    get_reply_data()
-    get_test_data()
+    #get_source_data()
+    #get_reply_data()
+    #get_test_data()
+    pass
