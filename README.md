@@ -1,6 +1,7 @@
 # Determining Rumour Veracity and Support for Rumours
 Marija Anđelić*, Antonio Lukić*, Marko Turina*
-[Paper](https://github.com/antoniolukic/TAR-FER-2023-24/blob/main/paper/paper.pdf)
+
+[Paper Report](https://github.com/antoniolukic/TAR-FER-2023-24/blob/main/paper/paper.pdf)
 
 The internet is a widespread platform where anyone can share their thoughts and opinions, often leading to the spread of unverified information and false rumours. Social media platforms like Twitter and Reddit are particularly susceptible to this phenomenon, where users
 frequently post and react to content without verifying its accuracy. This proliferation of misinformation presents significant challenges
